@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Регистрация ВК</title>
+    <link rel="stylesheet" href="css/style1.css" />
+  </head>
+  <body>
+    <div id="div-body">
+      <form>
+        <header class="heade-line">
+          <h1>Регистрация</h1>
+          <div class="div">
+            <p>
+              <img src="images/Vkontakte.gif" alt="" />
+              <b>ВКонтакте.ру</b> - сетевой проект, который поможет Вам узнать
+              больше о людях, которые Вас окружают, а также найти потерянных
+              друзей и поддерживать с ними связь. Вы сможете делиться
+              информацией, ограничивая круг лиц, которым она будет доступна.
+            </p>
+          </div>
+        </header>
+        <main>
+          <h2>Имя</h2>
+          <div class="name">
+            <p>
+              <label>Имя:</label>
+            </p>
+            <p class="p-name">
+              <input type="text" name="first_name" />
+              Допускаются только настоящие имя и фамилия
+            </p>
+            <p>
+              <label>Фамилия:</label>
+            </p>
+            <p class="p-name">
+              <input type="text" name="last_name" />
+              Остальные регистрации будут удаляться
+            </p>
+            <p>
+              <label>E-mail:</label>
+              <input type="text" required="required" class="email notnull" />
+            </p>
+            <p>
+              <label>Пароль:</label>
+              <input type="password" name="password" />
+            </p>
+          </div>
+          <h2>Образование</h2>
+          <div class="education">
+            <p>
+              <label>Страна:</label>
+              <select name="country">
+                <option>Россия</option>
+                <option>Беларусь</option>
+                <option>Украина</option>
+                <option>Польша</option>
+                <option>Литва</option>
+                <option>Латвия</option>
+                <option>Эстония</option>
+                <option>США</option>
+              </select>
+            </p>
+            <p>
+              <label>Город:</label>
+            </p>
+            <p>
+              <select name="city">
+                <option>Минск</option>
+                <option>Могилев</option>
+                <option>Брест</option>
+                <option>Витебск</option>
+                <option>Гродно</option>
+                <option>Гомель</option>
+                <option>Полоцк</option>
+                <option>Барановичи</option>
+              </select>
+            </p>
+            <p class="bottom">Город, где Вы учились в школе или вузе:</p>
+          </div>
+          <h3 class="h-school">Школа</h3>
+          <div class="div">
+            <p class="p">
+              <label>Школа:</label>
+              <select name="school">
+                <option>- Выберите школу -</option>
+                <option>СШ-25</option>
+                <option>Гимназия №1</option>
+                <option>СШ-8</option>
+                <option>СШ-6</option>
+                <option>СШ-1</option>
+                <option>СШ-9</option>
+                <option>СШ-5</option>
+              </select>
+            </p>
+          </div>
+          <h3>Университет</h3>
+          <div class="div">
+            <p class="p">
+              <label>Вуз:</label>
+              <select name="university">
+                <option>- Выберите ВУЗ -</option>
+                <option>БГУ</option>
+                <option>МГУ</option>
+                <option>МГТУ</option>
+                <option>БРУ</option>
+                <option>МГПУ</option>
+              </select>
+            </p>
+          </div>
+        </main>
+        <footer class="submit_fild">
+          <input type="submit" name="submit" value="Зарегистрироваться" />
+          <p>
+            Фактом регистрации Вы соглашаетесь с
+            <a href="#" rel="noopener">Пользовательским соглашением </a>
+          </p>
+        </footer>
+      </form>
+    </div>
+  </body>
+</html>
