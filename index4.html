@@ -9,14 +9,13 @@
     <!--link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet"-->
     <!--link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet"-->
     <!--link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet"-->
-    
   </head>
   <body>
-    <div id="div-body">
+    <div class="div-body">
       <form>
-        <header class="heade-line">
+        <header>
           <h1>Регистрация</h1>
-          <div class="div">
+          <div class="head-div">
             <p>
               <img src="images/Vkontakte.gif" alt="" />
               <b>ВКонтакте.ру</b> - сетевой проект, который поможет Вам узнать
@@ -28,7 +27,7 @@
         </header>
         <main>
           <h2>Имя</h2>
-          <div class="name">
+          <div>
             <p>
               <label>Имя:</label>
             </p>
@@ -44,7 +43,7 @@
               Остальные регистрации будут удаляться
             </p>
             <p>
-              <label>E-mail:</label>
+              <label>E-Mail:</label>
               <input type="text" required="required" class="email notnull" />
             </p>
             <p>
@@ -52,7 +51,9 @@
               <input type="password" name="password" />
             </p>
           </div>
-          <h2>Образование</h2>
+
+          <h2 class="h2">Образование</h2>
+
           <div class="education">
             <p>
               <label>Страна:</label>
@@ -84,9 +85,10 @@
             </p>
             <p class="bottom">Город, где Вы учились в школе или вузе:</p>
           </div>
-          <h3 class="h-school">Школа</h3>
-          <div class="div">
-            <p class="p">
+
+          <h3 class="h3-school">Школа</h3>
+          <div class="school">
+            <p>
               <label>Школа:</label>
               <select name="school">
                 <option>- Выберите школу -</option>
@@ -100,9 +102,10 @@
               </select>
             </p>
           </div>
-          <h3>Университет</h3>
-          <div class="div">
-            <p class="p">
+
+          <h3 class="h3-university">Университет</h3>
+          <div class="university">
+            <p>
               <label>Вуз:</label>
               <select name="university">
                 <option>- Выберите ВУЗ -</option>
