@@ -74,8 +74,8 @@ h2{
   letter-spacing: 0px;
   font-family: Tahoma, sans-serif;
   font-weight: 900;
-  padding-top: 22px;;
-  padding-bottom: 16px;
+  padding-top: 23px;;
+  padding-bottom: 19px;
 }
 label {
 width: 63px; /* Ширина */
@@ -102,7 +102,7 @@ input{
   font-size: 16px;
   font-weight: 800;
   letter-spacing: .5px;
-  margin-top: 25px;
+  margin-top: 28px;
 }
 select {
   width: 164px;
@@ -131,12 +131,15 @@ select{
 /*Школа*/
 .h3-school {
   font-size: 15px;
-  margin-top: 40px;
-  margin-bottom: 10px;
+  margin-top: 43px;
+  margin-bottom: 13px;
+  
+  
 }
 .school label {
   margin-top: 20px;
   margin-left: 5px;
+ 
 }
 .school select {
   margin-top: 9px;
@@ -146,8 +149,8 @@ select{
 /*университет*/
 .h3-university {
   font-size: 15px;
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin-top: 15px;
+  margin-bottom: 13px;
 }
 .university label{
   margin-top: 20px;
